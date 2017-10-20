@@ -11,6 +11,17 @@ const robots = [
   { name: 'Ratchet', alliance: null }
 ];
 
+var sortedRobots = robots.map(function(robot) {
+  return robot.assign({}, robot, {
+    if knownDecepticons.includes(robot.name) {
+      alliance: 'decepticon'
+    } else {
+      alliance: 'autobot'
+    }
+  });
+});
+
+
 const zebraStripes = [
   { width: 9.12, color: null },
   { width: 5.71, color: null },
