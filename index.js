@@ -18,7 +18,6 @@ var sortedRobots = robots.map(function(robot) {
   });
 });
 
-
 const zebraStripes = [
   { width: 9.12, color: null },
   { width: 5.71, color: null },
